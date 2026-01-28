@@ -5,16 +5,15 @@
 # -------------------------
 # 0️⃣ Install and load packages
 # -------------------------
-packages <- c(
-  "shiny", "dplyr", "tidyr", "ggplot2",
-  "readxl", "stringr", "showtext",
-  "lubridate", "scales"
-)
-
-for(p in packages){
-  if(!require(p, character.only = TRUE)) install.packages(p, dependencies = TRUE)
-  library(p, character.only = TRUE)
-}
+library(shiny)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(readxl)
+library(stringr)
+library(showtext)
+library(lubridate)
+library(scales)
 
 # -------------------------
 # 1️⃣ Load font
@@ -245,4 +244,5 @@ server <- function(input, output, session) {
 # 7️⃣ Run app
 # -------------------------
 shinyApp(ui, server)
+
 
