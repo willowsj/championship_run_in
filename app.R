@@ -11,8 +11,6 @@ packages <- c(
   "lubridate", "scales"
 )
 
-rsconnect::writeManifest()
-
 for(p in packages){
   if(!require(p, character.only = TRUE)) install.packages(p, dependencies = TRUE)
   library(p, character.only = TRUE)
@@ -247,3 +245,4 @@ server <- function(input, output, session) {
 # 7️⃣ Run app
 # -------------------------
 shinyApp(ui, server)
+
