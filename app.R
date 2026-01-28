@@ -1,9 +1,6 @@
 # Championship 2025-26 Run-in
 # Last updated: 27 January 2026
 
-setwd("C:/Users/WillowsJack/OneDrive - Office of Rail and Road/Documents/R/runin")
-
-
 # -------------------------
 # 0️⃣ Install and load packages
 # -------------------------
@@ -247,3 +244,4 @@ server <- function(input, output, session) {
 # 7️⃣ Run app
 # -------------------------
 shinyApp(ui, server)
+
