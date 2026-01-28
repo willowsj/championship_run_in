@@ -245,3 +245,21 @@ server <- function(input, output, session) {
 # -------------------------
 shinyApp(ui, server)
 
+
+writeManifest(
+  appDir = getwd(),
+  appFiles = NULL,
+  appFileManifest = NULL,
+  appPrimaryDoc = NULL,
+  appMode = NULL,
+  contentCategory = NULL,
+  python = NULL,
+  forceGeneratePythonEnvironment = FALSE,
+  quarto = NA,
+  image = NULL,
+  envManagement = NULL,
+  envManagementR = NULL,
+  envManagementPy = NULL,
+  verbose = FALSE,
+  quiet = FALSE
+)
