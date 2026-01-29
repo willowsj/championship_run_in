@@ -1,5 +1,11 @@
 # Championship 2025-26 Run-in
-# Last updated: 28 January 2026
+# Last updated: 29 January 2026
+
+setwd("/Users/willowsj/Documents/GitHub/championship_run_in") 
+
+#Source data: League table
+#https://www.soccerstats.com/homeaway.asp?league=england2
+ 
 
 # -------------------------
 # 0️⃣ Load packages

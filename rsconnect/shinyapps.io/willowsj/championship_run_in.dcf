@@ -1,0 +1,13 @@
+name: championship_run_in
+title: championship_run_in
+username: willowsj
+account: willowsj
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 16541853
+bundleId: 11509945
+url: https://willowsj.shinyapps.io/championship_run_in/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .Rapp.history|.RData|development.R|league_table.csv|league_table.numbers
